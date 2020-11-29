@@ -520,6 +520,15 @@ License: MIT + file LICENSE
 Archs: i386, x64
 
 Package: openxlsx
+Version: 4.2.3.9000
+Depends: R (>= 3.3.0)
+Imports: grDevices, methods, Rcpp, stats, utils, zip, stringi
+LinkingTo: Rcpp
+Suggests: knitr, testthat, roxygen2, rmarkdown
+License: MIT + file LICENSE
+Archs: i386, x64
+
+Package: openxlsx
 Version: 4.2.3
 Depends: R (>= 3.3.0)
 Imports: grDevices, methods, Rcpp, stats, utils, zip, stringi
